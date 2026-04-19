@@ -1,3 +1,4 @@
+import { ModalTask } from "@/components/ModalTask";
 import TaskCard from "@/components/taskCard";
 import { GetTask } from "@/lib/page";
 
@@ -10,6 +11,9 @@ const TaskPage = async() => {
     return (
         <div>
             <h1>task length: {data.length}</h1>
+            <div className="my-5">
+                <ModalTask></ModalTask>
+            </div>
             <div className="grid grid-cols-3 gap-5">
                 {
                     data.map(task => <TaskCard key={task.id} task={task}></TaskCard>)
