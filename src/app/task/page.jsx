@@ -1,5 +1,6 @@
 import { ModalTask } from "@/components/ModalTask";
 import TaskCard from "@/components/taskCard";
+import { createData } from "@/lib/actions";
 import { GetTask } from "@/lib/page";
 
 
@@ -12,7 +13,7 @@ const TaskPage = async() => {
         <div>
             <h1>task length: {data.length}</h1>
             <div className="my-5">
-                <ModalTask></ModalTask>
+                <ModalTask createTask={createData}></ModalTask>
             </div>
             <div className="grid grid-cols-3 gap-5">
                 {
