@@ -1,0 +1,62 @@
+{
+    "success": true,
+    "message": "Tasks fetched successfully",
+    "data": [
+        {
+            "id": "1",
+            "title": "Learn HTML",
+            "description": "Basics of HTML structure and tags",
+            "status": "completed",
+            "priority": "high",
+            "progress": 100,
+            "deadline": "2026-04-20",
+            "createdAt": "2026-04-15T08:00:00Z"
+        },
+        {
+            "id": "2",
+            "title": "Learn CSS",
+            "description": "Flexbox, Grid, Responsive Design",
+            "status": "completed",
+            "priority": "high",
+            "progress": 100,
+            "deadline": "2026-04-22",
+            "createdAt": "2026-04-16T09:00:00Z"
+        },
+        {
+            "id": "3",
+            "title": "Learn JavaScript",
+            "description": "Core concepts like variables, functions, loops",
+            "status": "in-progress",
+            "priority": "high",
+            "progress": 60,
+            "deadline": "2026-04-30",
+            "createdAt": "2026-04-17T12:00:00Z"
+        },
+        {
+            "id": "4",
+            "title": "Learn React",
+            "description": "Components, props, state, hooks",
+            "status": "pending",
+            "priority": "medium",
+            "progress": 0,
+            "deadline": "2026-05-10",
+            "createdAt": "2026-04-18T10:00:00Z"
+        },
+        {
+            "id": "5",
+            "title": "Learn Next.js",
+            "description": "Routing, SSR, API routes",
+            "status": "pending",
+            "priority": "high",
+            "progress": 0,
+            "deadline": "2026-05-20",
+            "createdAt": "2026-04-19T10:00:00Z"
+        }
+    ],
+    "meta": {
+        "total": 5,
+        "completed": 2,
+        "pending": 2,
+        "inProgress": 1
+    }
+}

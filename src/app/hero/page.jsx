@@ -5,8 +5,7 @@ const HeroPage = () => {
     return (
         <div>
             <h2>hero page</h2>
-            <Button variant="tertiary">Tertiary</Button>
-            <Button variant="ghost">Ghost</Button>
+            
             <Button variant="secondary">Secondary</Button>
             <Button>Primary</Button>
         </div>
