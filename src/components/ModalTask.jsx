@@ -34,7 +34,7 @@ export function ModalTask({ createTask }) {
                                     </TextField>
 
 
-                                    <Select className="w-[256px]" placeholder="Select one">
+                                    <Select name="name" className="w-[256px]" placeholder="Select one">
                                         <Label>Priority</Label>
                                         <Select.Trigger>
                                             <Select.Value />
@@ -54,7 +54,7 @@ export function ModalTask({ createTask }) {
                                                     high
                                                     <ListBox.ItemIndicator />
                                                 </ListBox.Item>
-                                            
+
                                             </ListBox>
                                         </Select.Popover>
                                     </Select>
@@ -62,7 +62,7 @@ export function ModalTask({ createTask }) {
 
 
 
-<Select className="w-[256px]" placeholder="Select one">
+                                    <Select name="name" className="w-[256px]" placeholder="Select one">
                                         <Label>Status</Label>
                                         <Select.Trigger>
                                             <Select.Value />
@@ -82,7 +82,7 @@ export function ModalTask({ createTask }) {
                                                     completed
                                                     <ListBox.ItemIndicator />
                                                 </ListBox.Item>
-                                            
+
                                             </ListBox>
                                         </Select.Popover>
                                     </Select>
@@ -94,7 +94,7 @@ export function ModalTask({ createTask }) {
                                         <Label>Company</Label>
                                         <Input placeholder="Enter your company name" />
                                     </TextField>
-                                    
+
 
                                     <Modal.Footer>
                                         <Button slot="close" variant="secondary">
