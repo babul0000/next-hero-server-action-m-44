@@ -34,7 +34,7 @@ export function ModalTask({ createTask }) {
                                     </TextField>
 
 
-                                    <Select name="name" className="w-[256px]" placeholder="Select one">
+                                    <Select name="status" className="w-[256px]" placeholder="Select one">
                                         <Label>Priority</Label>
                                         <Select.Trigger>
                                             <Select.Value />
@@ -62,7 +62,7 @@ export function ModalTask({ createTask }) {
 
 
 
-                                    <Select name="name" className="w-[256px]" placeholder="Select one">
+                                    <Select name="progress" className="w-[256px]" placeholder="Select one">
                                         <Label>Status</Label>
                                         <Select.Trigger>
                                             <Select.Value />
@@ -100,7 +100,7 @@ export function ModalTask({ createTask }) {
                                         <Button slot="close" variant="secondary">
                                             Cancel
                                         </Button>
-                                        <Button type="submit" >Submit Task</Button>
+                                        <Button slot="close" type="submit" >Submit Task</Button>
                                     </Modal.Footer>
 
                                 </form>
